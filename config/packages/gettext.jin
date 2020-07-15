@@ -44,5 +44,5 @@
 		default = app
 
 		locales = {
-			"app": "locale"
+			"app": "resources/locales"
 		}
