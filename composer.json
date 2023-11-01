@@ -10,18 +10,24 @@
             "role":  "Lead Architect / Developer"
         }
     ],
-    "autoload": {
-        "classmap": [
-            "src/"
-        ]
-    },
     "require": {
         "ext-gettext": "*",
         "hiraeth/app": "^3.0"
 
     },
     "require-dev": {
-        "phpstan/phpstan": "^1.0"
+        "phpstan/phpstan": "^1.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "test/src"
+        ]
     },
     "type": "opus-package",
     "extra": {
