@@ -16,8 +16,8 @@
         ]
     },
     "require": {
-        "hiraeth/app": "^2.0",
-        "ext-gettext": "*"
+        "ext-gettext": "*",
+        "hiraeth/app": "^2.0"
 
     },
     "require-dev": {
