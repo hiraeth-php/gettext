@@ -46,3 +46,11 @@
 		locales = {
 			"app": "resources/locales"
 		}
+
+[twig]
+
+	filters = {
+		"trans": {
+			"target": "_"
+		}
+	}
